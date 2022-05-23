@@ -1,3 +1,7 @@
+/*custom fonts can be placed below*/
+
+
+
 /* Color custom properties */
 
 :root,
@@ -2262,7 +2266,7 @@ input[type='checkbox'] {
 .header__heading,
 .header__heading-link {
   grid-area: heading;
-  justify-self: center;
+  justify-self: left;
 }
 
 .header__heading-link {
@@ -2305,7 +2309,7 @@ input[type='checkbox'] {
 
   .header--top-center .header__heading-link,
   .header--top-center .header__heading {
-    justify-self: center;
+    justify-self: right;
     text-align: center;
   }
 }
@@ -2314,7 +2318,7 @@ input[type='checkbox'] {
 .header__icons {
   display: flex;
   grid-area: icons;
-  justify-self: end;
+  justify-self: left;
 }
 
 .header__icon:not(.header__icon--summary),
